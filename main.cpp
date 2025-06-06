@@ -33,7 +33,7 @@ int main() {
         mostrarEstado(player); // DEBUG: Mostra estado após a ação
 
         if (!estaVivo(player)) {
-            cout << "\n💀 Ficaste sem forças para continuar. Fim do jogo.\n";
+            cout << "\n💀 Ficaste sem forças para continuar. Game Over!.\n";
             break;
         }
 
